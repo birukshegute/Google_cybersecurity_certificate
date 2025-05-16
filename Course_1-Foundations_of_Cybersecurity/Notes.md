@@ -211,6 +211,11 @@ The foundational model for cybersecurity principles:
 - ⚠️ Social engineering and phishing remain major threats.
 - 🧑‍💻 Cybersecurity is both technical and human.
 - 🏛️ Real-world examples (e.g. Equifax) highlight the cost of weak defenses.
+- 🔐 Understanding the CIA Triad (Confidentiality, Integrity, Availability) is foundational to every security decision.
+- 🛠️ Tools like SIEM, IDS, and packet analyzers are essential for detecting and responding to threats.
+- 🗂️ Playbooks and procedures ensure consistency and reliability during incident response and investigations.
+- 🧪 Proper evidence handling (chain of custody, data preservation) is crucial for forensic and legal integrity.
+- 💡 A strong grasp of terminology, threat types, and risk management builds your readiness for cybersecurity roles.
 
 ---
 
