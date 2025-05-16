@@ -127,6 +127,84 @@ The foundational model for cybersecurity principles:
 
 ---
 
+---
+
+<details>
+<summary>🧰 <strong>Cybersecurity Tools and Analyst Toolkit</strong></summary>
+
+### 🛠️ Common Tools in an Analyst’s Toolkit
+
+- **SIEM (Security Information and Event Management)**  
+  Aggregates and analyzes logs to detect threats.  
+  Offers dashboards, alerts, and customizable views.  
+  Can be cloud-hosted or on-premise.
+
+- **Network Protocol Analyzers (Packet Sniffers)**  
+  Captures and inspects network traffic.  
+  Useful for analyzing suspicious activity and understanding network behavior.
+
+- **Playbooks**  
+  Step-by-step guides for handling incidents and investigations.  
+  Help ensure consistent, documented procedures across teams.
+
+---
+
+### 📚 Key Forensic Playbooks
+
+- **Chain of Custody**  
+  Ensures evidence integrity by tracking who accessed it, when, where, and why.
+
+- **Protecting and Preserving Evidence**  
+  Preserves fragile or volatile digital evidence by following the **Order of Volatility**, and working from forensic copies to avoid tampering.
+
+---
+
+### 💡 Takeaways
+
+- Tools and playbooks vary by organization but serve the same core purpose: reducing risk and maintaining operational integrity.
+- Analysts must understand not only **how to use tools**, but **why they are used** — especially during forensic investigations.
+
+</details>
+
+---
+
+<details>
+<summary>⚙️ <strong>Additional Tools and Technical Concepts</strong></summary>
+
+### 💻 Programming Tools
+
+- **Python** – Automates repetitive tasks and supports scripting for security operations.
+- **SQL** – Interacts with and queries structured databases for forensic or log data.
+
+### 🖥️ Operating Systems
+
+- **Linux** – Open-source OS heavily used in cybersecurity environments.
+- **macOS / Windows** – Also relevant depending on enterprise environments.
+- Analysts use **command-line interfaces** to interact with systems directly.
+
+---
+
+### 🌐 Web & Network Security
+
+- **Web Vulnerabilities** – Flaws in web apps that allow exploits (unauthorized access, malware, data theft).
+
+  - Refer to [OWASP Top 10](https://owasp.org/www-project-top-ten/) for the most critical risks.
+
+- **Antivirus Software** – Detects and removes malware.
+- **Intrusion Detection Systems (IDS)** – Monitors network traffic and alerts on suspicious activity.
+- **Encryption** – Secures data by converting plaintext into unreadable ciphertext.
+
+---
+
+### 🔍 Penetration Testing
+
+- Simulates attacks to uncover vulnerabilities in systems, networks, and applications.
+- Helps organizations proactively strengthen their defenses.
+
+</details>
+
+---
+
 ## ✅ Key Takeaways
 
 - 📚 Past cyberattacks shape today’s best practices.
