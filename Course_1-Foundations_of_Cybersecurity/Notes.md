@@ -72,6 +72,41 @@ Welcome to my notes from **Course 1** of the Google Cybersecurity Certificate. T
 ---
 
 <details>
+<summary>🛡️ <strong>Core Cybersecurity Concepts</strong></summary>
+
+### 🔁 CIA Triad
+
+The foundational model for cybersecurity principles:
+
+- **Confidentiality** – Ensuring data is only accessible by authorized parties.
+- **Integrity** – Guaranteeing data accuracy and protection from unauthorized modification.
+- **Availability** – Ensuring systems and data are accessible when needed.
+
+---
+
+### 🏅 CISSP (Certified Information Systems Security Professional)
+
+- Industry-respected certification governed by (ISC)².
+- Recognized globally for information security professionals.
+- Not required for beginners, but referenced often in frameworks and standards.
+- Covers 8 domains including:
+  - Security & Risk Management
+  - Asset Security
+  - Communication & Network Security
+  - Security Operations
+
+---
+
+### 🧩 Security Frameworks Mentioned
+
+- **NIST Cybersecurity Framework (CSF)** – Widely used model in the U.S. for risk-based cybersecurity.
+- **ISO/IEC 27001** – International standard for managing information security.
+
+</details>
+
+---
+
+<details>
 <summary>🔐 <strong>Responsibilities of Cybersecurity Professionals</strong></summary>
 
 - Reduce organizational risk through system monitoring.
