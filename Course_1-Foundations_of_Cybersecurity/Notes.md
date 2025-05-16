@@ -127,8 +127,6 @@ The foundational model for cybersecurity principles:
 
 ---
 
----
-
 <details>
 <summary>🧰 <strong>Cybersecurity Tools and Analyst Toolkit</strong></summary>
 
