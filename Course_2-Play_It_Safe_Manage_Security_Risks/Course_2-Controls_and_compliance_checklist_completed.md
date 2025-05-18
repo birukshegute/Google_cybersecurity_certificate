@@ -70,3 +70,7 @@ This checklist evaluates the implementation of security controls and compliance 
 - Create and enforce user access control policies (SOC compliance).
 - Improve data classification and incident response processes (GDPR compliance).
 - Conduct awareness training on privacy and compliance requirements.
+
+---
+
+📄 **[View Full Report on Google Docs](https://docs.google.com/document/d/12U1jQPBJC5fdVD1yRN8mQlgDwnnlMkE055vEZFGCLkI/edit?usp=drive_link)**
