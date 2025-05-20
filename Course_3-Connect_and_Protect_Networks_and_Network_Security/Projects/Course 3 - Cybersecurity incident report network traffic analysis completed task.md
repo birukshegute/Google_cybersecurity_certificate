@@ -22,9 +22,7 @@ This report documents a simulated investigation conducted during **Course 3: Con
 | **How Incident Was Detected** | Network monitoring alerts and/or user reports of failed DNS lookups |
 | **Actions Taken** | Connectivity between `192.51.100.15` and `203.0.113.2` was tested multiple times using ICMP. Responses confirmed that UDP port 53 was unreachable. |
 | **Key Findings** | DNS server at `203.0.113.2` is either rejecting or not responding to requests. ICMP error supports DNS resolution failure. |
-| **Likely Cause** | DNS server issue due to one or more of the following: - DDoS attack  - Misconfiguration - Firewall blocking requests |
-| **Next Steps** |  - Review DNS server logs
-                    - Check firewall rule sets
-                    - Restart DNS services if necessary |
+| **Likely Cause** | DNS server issue due to one or more of the following: - DDoS attack <br> - Misconfiguration <br> - Firewall blocking requests |
+| **Next Steps** |  - Review DNS server logs <br> - Check firewall rule sets <br>  - Restart DNS services if necessary |
 
 ---
