@@ -1,0 +1,11 @@
+# Cybersecurity Incident Report
+
+| Section 1: Identify the type of attack that may have caused this  network interruption |  |
+| :---- | ----- |
+| One potential explanation for the website's connection timeout error message is: the website is getting too many SYN requests and is unable to perform TCP handshake with all of them. The requests could be malicious. The logs show that: A significant increase in incoming SYN packets without corresponding ACK responses. A high number of incomplete TCP handshakes in a short period. Server resource exhaustion, causing it to stop responding to legitimate connection requests. This event could be: A Denial-of-Service (DoS) attack, specifically a SYN flood attack, which overwhelms the server by sending a large number of half-open TCP connection requests. |  |
+|  |  |
+
+| Section 2: Explain how the attack is causing the website to malfunction |
+| :---- |
+| When website visitors try to establish a connection with the web server, a three-way handshake occurs using the TCP protocol. Explain the three steps of the handshake: SYN (Synchronize): The client sends a SYN request to the server, indicating an attempt to establish a connection. SYN-ACK (Synchronize-Acknowledge): The server responds with a SYN-ACK, acknowledging the client's request. ACK (Acknowledge): The client sends an ACK to complete the handshake, and the connection is established. Explain what happens when a malicious actor sends a large number of SYN packets all at once: The server allocates resources for each connection and waits for the final ACK, but the attacker never sends it, leaving the connection half-open. As a result, the server quickly exhausts its available connections, blocking legitimate users from accessing the website. Explain what the logs indicate and how that affects the server: A spike in SYN requests without corresponding ACKs. A backlog of half-open connections, exhausting server resources. Eventual timeout errors for legitimate users trying to connect. Recommended Next Steps: Implement rate limiting to restrict excessive SYN requests from a single source. Enable SYN cookies to minimize the impact of half-open connections. Use a web application firewall (WAF) or DDoS mitigation service to filter out malicious traffic. Monitor traffic patterns to identify and block suspicious IP addresses. |
+
