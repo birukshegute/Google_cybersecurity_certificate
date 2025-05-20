@@ -1,11 +1,36 @@
-# Cybersecurity Incident Report
+# 🛡️ Cybersecurity Incident Report  
+## 🌐 SYN Flood Attack Investigation
 
-| Section 1: Identify the type of attack that may have caused this  network interruption |  |
-| :---- | ----- |
-| One potential explanation for the website's connection timeout error message is: the website is getting too many SYN requests and is unable to perform TCP handshake with all of them. The requests could be malicious. The logs show that: A significant increase in incoming SYN packets without corresponding ACK responses. A high number of incomplete TCP handshakes in a short period. Server resource exhaustion, causing it to stop responding to legitimate connection requests. This event could be: A Denial-of-Service (DoS) attack, specifically a SYN flood attack, which overwhelms the server by sending a large number of half-open TCP connection requests. |  |
-|  |  |
+This report documents a simulated cybersecurity scenario presented in **Course 3: Connect and Protect – Networks and Network Security**. The task involved analyzing abnormal TCP traffic patterns resulting in a network outage and identifying the likely cause. The project focuses on understanding how a SYN flood attack disrupts the TCP handshake process and impacts server performance.
 
-| Section 2: Explain how the attack is causing the website to malfunction |
-| :---- |
-| When website visitors try to establish a connection with the web server, a three-way handshake occurs using the TCP protocol. Explain the three steps of the handshake: SYN (Synchronize): The client sends a SYN request to the server, indicating an attempt to establish a connection. SYN-ACK (Synchronize-Acknowledge): The server responds with a SYN-ACK, acknowledging the client's request. ACK (Acknowledge): The client sends an ACK to complete the handshake, and the connection is established. Explain what happens when a malicious actor sends a large number of SYN packets all at once: The server allocates resources for each connection and waits for the final ACK, but the attacker never sends it, leaving the connection half-open. As a result, the server quickly exhausts its available connections, blocking legitimate users from accessing the website. Explain what the logs indicate and how that affects the server: A spike in SYN requests without corresponding ACKs. A backlog of half-open connections, exhausting server resources. Eventual timeout errors for legitimate users trying to connect. Recommended Next Steps: Implement rate limiting to restrict excessive SYN requests from a single source. Enable SYN cookies to minimize the impact of half-open connections. Use a web application firewall (WAF) or DDoS mitigation service to filter out malicious traffic. Monitor traffic patterns to identify and block suspicious IP addresses. |
+---
+
+### 🔍 Section 1: Identify the Type of Attack
+
+| Description | Analysis |
+|------------|----------|
+| **Issue** | The website is receiving an excessive number of SYN requests and is unable to complete TCP handshakes, leading to timeouts for legitimate users. |
+| **Evidence from Logs** | - Spike in incoming SYN packets<br>- Few or no corresponding ACK responses<br>- Large number of incomplete handshakes<br>- Server resource exhaustion and connection failures |
+| **Type of Attack** | **Denial-of-Service (DoS)** – more specifically, a **SYN Flood Attack**, which overwhelms the server with half-open TCP connections. |
+
+---
+
+### 📉 Section 2: How the Attack Causes Website Failure
+
+| Detail | Explanation |
+|-------|-------------|
+| **TCP Handshake Process** | 1. **SYN** – Client initiates a connection with a SYN request<br>2. **SYN-ACK** – Server responds to acknowledge<br>3. **ACK** – Client finalizes the handshake |
+| **Attack Behavior** | The attacker sends many SYN requests without completing the handshake (never sends the final ACK). The server allocates resources and waits, keeping connections half-open. |
+| **Impact** | - Server reaches connection limit<br>- Cannot respond to legitimate traffic<br>- Website becomes unavailable |
+| **What the Logs Show** | - Unusual surge in SYN packets<br>- Absence of corresponding ACKs<br>- High backlog of half-open connections<br>- Repeated timeout errors for real users |
+
+---
+
+### ✅ Recommended Next Steps
+
+- 🔒 Implement **rate limiting** to restrict excessive SYN requests per source IP  
+- 🧠 Enable **SYN cookies** to protect against resource exhaustion  
+- 🌐 Deploy a **Web Application Firewall (WAF)** or **DDoS mitigation service**  
+- 🔍 Monitor traffic patterns and **block suspicious IP addresses**
+
 
