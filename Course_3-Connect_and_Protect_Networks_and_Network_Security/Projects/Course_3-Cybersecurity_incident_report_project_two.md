@@ -35,4 +35,4 @@ This report documents a simulated cybersecurity scenario presented in **Course 3
 
 ---
 
-📄 **[View Full Report on Google Docs](https://docs.google.com/document/d/12U1jQPBJC5fdVD1yRN8mQlgDwnnlMkE055vEZFGCLkI/edit?usp=sharing)**
+📄 **[View Full Report on Google Docs](https://docs.google.com/document/d/14tc2pEy0CsoBpWABmDlveVUEOJjGsqHHV6nZt666GsQ/edit?usp=drive_link)**
