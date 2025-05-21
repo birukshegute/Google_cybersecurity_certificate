@@ -26,3 +26,5 @@ This report documents a simulated investigation conducted during **Course 3: Con
 | **Next Steps** |  - Review DNS server logs <br> - Check firewall rule sets <br>  - Restart DNS services if necessary |
 
 ---
+
+📄 **[View Full Report on Google Docs](https://docs.google.com/document/d/1VJf9_HZpJg_qMWS1HIqSk4-IdsqxoiOenSTgLeJeItg/edit?usp=drive_link)**
