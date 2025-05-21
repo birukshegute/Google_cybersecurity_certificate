@@ -33,4 +33,6 @@ This report documents a simulated cybersecurity scenario presented in **Course 3
 - 🌐 Deploy a **Web Application Firewall (WAF)** or **DDoS mitigation service**  
 - 🔍 Monitor traffic patterns and **block suspicious IP addresses**
 
+---
 
+📄 **[View Full Report on Google Docs](https://docs.google.com/document/d/12U1jQPBJC5fdVD1yRN8mQlgDwnnlMkE055vEZFGCLkI/edit?usp=sharing)**
