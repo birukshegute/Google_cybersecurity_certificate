@@ -50,7 +50,7 @@ This course included a **packet analysis lab** simulating an investigation of su
 
 ---
 
-## 🧩 Tools & Concepts Covered
+## 🧩 Tools & Concepts Covered:
 
 - Wireshark  
 - Nmap  
