@@ -1,4 +1,5 @@
-# 🛡️ Cybersecurity Incident Report  
+# 🛡️ Cybersecurity Incident Report
+
 ## 🌐 SYN Flood Attack Investigation
 
 This report documents a simulated cybersecurity scenario presented in **Course 3: Connect and Protect – Networks and Network Security**. The task involved analyzing abnormal TCP traffic patterns resulting in a network outage and identifying the likely cause. The project focuses on understanding how a SYN flood attack disrupts the TCP handshake process and impacts server performance.
