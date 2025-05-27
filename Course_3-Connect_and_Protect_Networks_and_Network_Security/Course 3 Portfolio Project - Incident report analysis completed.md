@@ -91,3 +91,5 @@ The organization experienced a **Distributed Denial of Service (DDoS)** attack t
 ---
 
 📄 *This report demonstrates the application of real-world incident response strategies using the NIST framework, strengthening both technical knowledge and documentation practice.*
+
+**[View Full Report on Google Docs](https://docs.google.com/document/d/1nxo3iBAMNsniyCoAEQBvQIvvd_1dIdjfdOQrRoPz0io/edit?usp=sharing)**
