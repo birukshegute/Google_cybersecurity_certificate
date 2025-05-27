@@ -1,4 +1,5 @@
 # 🛡️ Security Risk Assessment Report  
+
 ## 🏢 Social Media Data Breach Response
 
 This report was created as part of a hands-on activity in **Course 3: Connect and Protect – Networks and Network Security**. In this scenario, you are a security analyst responding to a data breach at a social media organization. The breach exposed sensitive customer information (names, addresses) due to poor internal security practices. The report outlines recommended network hardening methods to prevent similar incidents.
@@ -26,10 +27,12 @@ It was discovered that no traffic filtering rules are in place for inbound or ou
 #### 🔑 3. Enforce Strong Password Policies
 
 Security inspection revealed two major concerns:
+
 - Employees are sharing passwords.
 - The database still uses a default admin password.
 
 These practices make it easy for attackers to gain privileged access. Immediate action should include:
+
 - Updating all default credentials
 - Enforcing complex password requirements
 - Educating employees on password hygiene
