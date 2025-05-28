@@ -41,7 +41,7 @@ This course focused on how networks operate, common network vulnerabilities, and
 
 This course included a **packet analysis lab** simulating an investigation of suspicious network activity using Wireshark.
 
-### 🔎 Key Skills Practiced:
+### 🔎 Key Skills Practiced
 
 - Capturing and filtering network packets  
 - Identifying abnormal IP behavior and port usage  
@@ -50,7 +50,7 @@ This course included a **packet analysis lab** simulating an investigation of su
 
 ---
 
-## 🧩 Tools & Concepts Covered:
+## 🧩 Tools & Concepts Covered
 
 - Wireshark  
 - Nmap  
