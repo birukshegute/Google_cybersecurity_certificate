@@ -11,6 +11,9 @@ In this project, I acted as a security analyst investigating potential threats a
 ### 1. Retrieve After-Hours Failed Login Attempts
 
 ![Query Screenshot: After-Hours Failed Logins](Portfolio_project_2_screenshots/1.png)
+
+<br>
+
 **Explanation:** Retrieves logins where `success = 0` and `login_time > '18:00'`, highlighting unusual failed attempts outside business hours.
 
 ---
@@ -18,14 +21,19 @@ In this project, I acted as a security analyst investigating potential threats a
 ### 2. Retrieve Login Attempts on Specific Dates
 
 ![Query Screenshot: Specific Dates](Portfolio_project_2_screenshots/2.png)  
-**Explanation:** Filters logins on May 8 and 9, 2022 using the `OR` operator. These two days are of interest due to a suspected breach. The OR operator ensures both dates are checked.
 
+<br>
+
+**Explanation:** Filters logins on May 8 and 9, 2022 using the `OR` operator. These two days are of interest due to a suspected breach. The OR operator ensures both dates are checked.
 
 ---
 
 ### 3. Retrieve Login Attempts Outside of Mexico
 
 ![Query Screenshot: Not Mexico](Portfolio_project_2_screenshots/3.png)
+
+<br>
+
 **Explanation:** filters out all login attempts where the country column contains either "MEX" or "MEXICO". The NOT LIKE '%MEX%' ensures that any login from locations matching the pattern "MEX" is excluded, effectively showing only non-Mexico login attempts.
 
 ---
@@ -33,6 +41,9 @@ In this project, I acted as a security analyst investigating potential threats a
 ### 4. Retrieve Employees in Marketing in East Buildings
 
 ![Query Screenshot: Marketing East](Portfolio_project_2_screenshots/4.png)
+
+<br>
+
 **Explanation:** Filters employees in the Marketing department working in offices that start with "East", like “East-170” using `LIKE 'East%'`.
 
 ---
@@ -40,6 +51,9 @@ In this project, I acted as a security analyst investigating potential threats a
 ### 5. Retrieve Employees in Finance or Sales
 
 ![Query Screenshot: Finance or Sales](Portfolio_project_2_screenshots/5.png)
+
+<br>
+
 **Explanation:** Uses `OR` logic to get employees from both departments—helpful for departmental audits.
 
 ---
@@ -47,6 +61,9 @@ In this project, I acted as a security analyst investigating potential threats a
 ### 6. Retrieve All Employees Not in IT
 
 ![Query Screenshot: Not IT](Portfolio_project_2_screenshots/1.png)
+
+<br>
+
 **Explanation:** Uses `NOT` to filter out employees in IT, useful for reviewing users pending system updates.
 
 ---
