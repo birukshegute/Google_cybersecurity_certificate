@@ -18,21 +18,22 @@ In this project, I acted as a security analyst investigating potential threats a
 ### 2. Retrieve Login Attempts on Specific Dates
 
 ![Query Screenshot: Specific Dates](Portfolio_project_2_screenshots/2.png)  
-**Explanation:** Filters logins on May 8 and 9, 2022 using the `OR` operator—useful for event-driven investigations.
+**Explanation:** Filters logins on May 8 and 9, 2022 using the `OR` operator. These two days are of interest due to a suspected breach. The OR operator ensures both dates are checked.
+
 
 ---
 
 ### 3. Retrieve Login Attempts Outside of Mexico
 
 ![Query Screenshot: Not Mexico](Portfolio_project_2_screenshots/3.png)
-**Explanation:** Uses `NOT LIKE '%MEX%'` to exclude logins originating from "MEX", helping spotlight foreign access.
+**Explanation:** filters out all login attempts where the country column contains either "MEX" or "MEXICO". The NOT LIKE '%MEX%' ensures that any login from locations matching the pattern "MEX" is excluded, effectively showing only non-Mexico login attempts.
 
 ---
 
 ### 4. Retrieve Employees in Marketing in East Buildings
 
 ![Query Screenshot: Marketing East](Portfolio_project_2_screenshots/4.png)
-**Explanation:** Filters employees in the Marketing department working in offices like “East-170” using `LIKE 'East%'`.
+**Explanation:** Filters employees in the Marketing department working in offices that start with "East", like “East-170” using `LIKE 'East%'`.
 
 ---
 
