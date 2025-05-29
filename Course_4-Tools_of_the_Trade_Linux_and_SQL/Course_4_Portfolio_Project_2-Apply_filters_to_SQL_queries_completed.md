@@ -10,42 +10,42 @@ In this project, I acted as a security analyst investigating potential threats a
 
 ### 1. Retrieve After-Hours Failed Login Attempts
 
-![Query Screenshot: After-Hours Failed Logins](Course_4-Tools_of_the_Trade_Linux_and_SQL\Portfolio_project_2_screenshots\1.png)
+![Query Screenshot: After-Hours Failed Logins](Portfolio_project_2_screenshots\1.png)
 **Explanation:** Retrieves logins where `success = 0` and `login_time > '18:00'`, highlighting unusual failed attempts outside business hours.
 
 ---
 
 ### 2. Retrieve Login Attempts on Specific Dates
 
-![Query Screenshot: Specific Dates](Course_4-Tools_of_the_Trade_Linux_and_SQL\Portfolio_project_2_screenshots\2.png)  
+![Query Screenshot: Specific Dates](Portfolio_project_2_screenshots\2.png)  
 **Explanation:** Filters logins on May 8 and 9, 2022 using the `OR` operator—useful for event-driven investigations.
 
 ---
 
 ### 3. Retrieve Login Attempts Outside of Mexico
 
-![Query Screenshot: Not Mexico](Course_4-Tools_of_the_Trade_Linux_and_SQL\Portfolio_project_2_screenshots\3.png)
+![Query Screenshot: Not Mexico](Portfolio_project_2_screenshots\3.png)
 **Explanation:** Uses `NOT LIKE '%MEX%'` to exclude logins originating from "MEX", helping spotlight foreign access.
 
 ---
 
 ### 4. Retrieve Employees in Marketing in East Buildings
 
-![Query Screenshot: Marketing East](Course_4-Tools_of_the_Trade_Linux_and_SQL\Portfolio_project_2_screenshots\4.png)
+![Query Screenshot: Marketing East](Portfolio_project_2_screenshots\4.png)
 **Explanation:** Filters employees in the Marketing department working in offices like “East-170” using `LIKE 'East%'`.
 
 ---
 
 ### 5. Retrieve Employees in Finance or Sales
 
-![Query Screenshot: Finance or Sales](Course_4-Tools_of_the_Trade_Linux_and_SQL\Portfolio_project_2_screenshots\5.png)
+![Query Screenshot: Finance or Sales](Portfolio_project_2_screenshots\5.png)
 **Explanation:** Uses `OR` logic to get employees from both departments—helpful for departmental audits.
 
 ---
 
 ### 6. Retrieve All Employees Not in IT
 
-![Query Screenshot: Not IT](Course_4-Tools_of_the_Trade_Linux_and_SQL\Portfolio_project_2_screenshots\1.png)
+![Query Screenshot: Not IT](Portfolio_project_2_screenshots\1.png)
 **Explanation:** Uses `NOT` to filter out employees in IT, useful for reviewing users pending system updates.
 
 ---
