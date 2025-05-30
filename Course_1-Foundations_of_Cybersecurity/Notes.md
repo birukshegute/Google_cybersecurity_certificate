@@ -17,14 +17,14 @@ Welcome to my notes from **Course 1** of the Google Cybersecurity Certificate. T
 <details>
 <summary>📜 <strong>Notable Early Cyber Attacks</strong></summary>
 
-### 🧬 Brain Virus (1986)
+## 🧬 Brain Virus (1986)
 
 - Created by the Alvi brothers to prevent software piracy.
 - Spread via pirated floppy disks.
 - Caused widespread global disruption — no data destruction.
 - Demonstrated early need for cybersecurity planning.
 
-### 🐛 Morris Worm (1988)
+## 🐛 Morris Worm (1988)
 
 - Developed by Robert Morris as an experiment.
 - Exploited vulnerabilities and reinstalled itself repeatedly.
@@ -38,7 +38,7 @@ Welcome to my notes from **Course 1** of the Google Cybersecurity Certificate. T
 <details>
 <summary>🌐 <strong>Modern Threats in the Digital Age</strong></summary>
 
-### 💌 LoveLetter Virus (2000)
+## 💌 LoveLetter Virus (2000)
 
 - Social engineering disguised as a romantic email.
 - Spread via address books, infected 45 million systems.
@@ -46,7 +46,7 @@ Welcome to my notes from **Course 1** of the Google Cybersecurity Certificate. T
 - Damages: ~$10 billion.
 - Showcased power of **phishing** + human vulnerability.
 
-### 🏛️ Equifax Data Breach (2017)
+## 🏛️ Equifax Data Breach (2017)
 
 - 143M+ records exposed (PII, SSNs, birthdates, etc.).
 - Root cause: Unpatched Apache Struts vulnerability.
