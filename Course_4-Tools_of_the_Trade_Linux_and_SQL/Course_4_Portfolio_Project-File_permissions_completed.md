@@ -14,14 +14,7 @@ To check file and directory permissions, I used the following command:
 ls -la /home/researcher2/projects
 ```
 
-The output showed the following file permissions:
-
-project_k.txt: -rw-rw-rw-
-project_m.txt: -rw-r-----
-project_r.txt: -rw-rw-r--
-project_t.txt: -rw-rw-r--
-project_x.txt: --w--w----
-drafts/ directory: drwx--x---
+The output showed the following file permissions
 
 ### 🧾 Describe the Permission String
 
