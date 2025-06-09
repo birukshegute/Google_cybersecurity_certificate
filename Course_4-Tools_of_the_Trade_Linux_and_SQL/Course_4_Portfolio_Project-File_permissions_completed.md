@@ -14,7 +14,9 @@ To check file and directory permissions, I used the following command:
 ls -la /home/researcher2/projects
 ```
 
-The output showed the following file permissions
+The output was the following:
+
+![Query Screenshot: permissions](Portfolio_project_1_screenshots/1.png)
 
 ### 🧾 Describe the Permission String
 
