@@ -42,6 +42,8 @@ Command used:
 chmod o-w /home/researcher2/projects/project_k.txt
 ```
 
+![Query Screenshot: removed write permission](Portfolio_project_1_screenshots/2.png)
+
 - New permissions: -rw-rw-r--
 - Write access was removed from others, ensuring only the user and group can modify the file.
 
