@@ -58,6 +58,8 @@ Command used:
 chmod 440 /home/researcher2/projects/.project_x.txt
 ```
 
+![Query Screenshot: changed permission of hidden file](Portfolio_project_1_screenshots/3.png)
+
 New permissions: -r--r-----
 Now only the user and group have read-only access. No access is given to others.
 
