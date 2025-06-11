@@ -60,12 +60,12 @@ chmod 440 /home/researcher2/projects/.project_x.txt
 
 ![Query Screenshot: changed permission of hidden file](Portfolio_project_1_screenshots/3.png)
 
-New permissions: -r--r-----
-Now only the user and group have read-only access. No access is given to others.
+- New permissions: -r--r-----
+- Now only the user and group have read-only access. No access is given to others.
 
 ### 📁 Change Directory Permissions
 
-Directory: drafts/
+Directory: drafts/ <br>
 Issue: Directory was executable by others, posing a potential risk.
 
 Command used:
@@ -74,8 +74,8 @@ Command used:
 chmod 700 /home/researcher2/projects/drafts
 ```
 
-New permissions: drwx------
-Only the owner has read, write, and execute permissions. Group and others have no access.
+- New permissions: drwx------
+- Only the owner has read, write, and execute permissions. Group and others have no access.
 
 ## ✅ Summary
 
