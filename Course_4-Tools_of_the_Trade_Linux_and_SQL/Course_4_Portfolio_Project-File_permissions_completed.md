@@ -33,7 +33,7 @@ So, project_t.txt is readable and writable by the user and group, and readable b
 
 ### ✏️ Change File Permissions
 
-File: project_k.txt
+File: project_k.txt <br>
 Issue: File had world-writable access (-rw-rw-rw-), which is not secure.
 
 Command used:
@@ -49,7 +49,7 @@ chmod o-w /home/researcher2/projects/project_k.txt
 
 ### 👁️ Change File Permissions on a Hidden File
 
-File: .project_x.txt
+File: .project_x.txt <br>
 Issue: Hidden file had write access with no read access — not ideal for sensitive data.
 
 Command used:
