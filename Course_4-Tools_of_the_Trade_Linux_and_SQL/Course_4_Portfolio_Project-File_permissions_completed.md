@@ -86,6 +86,6 @@ In this task, I:
 - Locked down hidden files with read-only restrictions
 - Restricted a directory to be accessible only by its owner
 
-These changes help maintain file confidentiality and ensure compliance with organizational security policies on multi-user Linux systems.
+These changes will help maintain file confidentiality and ensure compliance with organizational security policies on multi-user Linux systems.
 
 **[View Full Report on Google Docs](https://docs.google.com/document/d/1rWygd4CDuNllrm_A5tiY-r_CkiYetMoAZwS1xJEL0sU/edit?usp=sharing)**
