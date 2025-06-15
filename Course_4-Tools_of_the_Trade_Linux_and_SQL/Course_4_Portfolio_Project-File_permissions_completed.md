@@ -74,6 +74,8 @@ Command used:
 chmod 700 /home/researcher2/projects/drafts
 ```
 
+![Query Screenshot: changed permission of directory](Portfolio_project_1_screenshots/4.png)
+
 - New permissions: drwx------
 - Only the owner has read, write, and execute permissions. Group and others have no access.
 
