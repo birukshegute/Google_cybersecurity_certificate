@@ -78,6 +78,8 @@ Command used:
 chmod 700 /home/researcher2/projects/drafts
 ```
 
+The output was the following:
+
 ![Query Screenshot: changed permission of directory](Portfolio_project_1_screenshots/4.png)
 
 - New permissions: drwx------
