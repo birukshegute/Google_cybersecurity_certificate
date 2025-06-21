@@ -42,7 +42,7 @@ Command used:
 chmod o-w /home/researcher2/projects/project_k.txt
 ```
 
-The output was the following:
+The output of the command was the following:
 
 ![Query Screenshot: removed write permission](Portfolio_project_1_screenshots/2.png)
 
