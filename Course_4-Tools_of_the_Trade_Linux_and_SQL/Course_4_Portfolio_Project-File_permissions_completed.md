@@ -24,7 +24,7 @@ Example: -rw-rw-r-- (for project_t.txt)
 
 This 10-character string shows the type of file and its permissions:
 
-- (-) — regular file (at the start, d for directory)
+- (-) — regular file (d for directory)
 - rw- — User has read and write permissions
 - rw- — Group has read and write permissions
 - r-- — Others have read-only access
