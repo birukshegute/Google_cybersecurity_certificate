@@ -60,7 +60,7 @@ Command used:
 chmod 440 /home/researcher2/projects/.project_x.txt
 ```
 
-The output of the command was the following:
+The output of the command was:
 
 ![Query Screenshot: changed permission of hidden file](Portfolio_project_1_screenshots/3.png)
 
