@@ -2,7 +2,7 @@
 
 ## 📘 Project Description
 
-In this scenario, I worked as a security professional responsible for managing file system permissions on a Linux machine used by a research team. My task involved checking current file and directory permissions, interpreting those permissions, and modifying them to ensure only authorized users had the correct access. This included managing hidden files, removing unauthorized access for “others,” and securing a sensitive directory.
+In this scenario, I worked as a security professional responsible for managing file system permissions on a Linux machine used by a research team. My task involved checking current file and directory permissions, interpreting those permissions, and modifying them to ensure only authorized users had the correct access. This included managing hidden files, removing unauthorized access for “others”, and securing a sensitive directory.
 
 ---
 
