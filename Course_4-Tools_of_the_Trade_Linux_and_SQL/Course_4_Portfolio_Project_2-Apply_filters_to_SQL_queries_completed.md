@@ -54,7 +54,7 @@ In this project, I acted as a security analyst investigating potential threats a
 
 <br>
 
-**Explanation:** Uses `OR` logic to get employees from both departments—helpful for departmental audits.
+**Explanation:** Uses `OR` logic to get employees from both departments — helpful for departmental audits.
 
 ---
 
