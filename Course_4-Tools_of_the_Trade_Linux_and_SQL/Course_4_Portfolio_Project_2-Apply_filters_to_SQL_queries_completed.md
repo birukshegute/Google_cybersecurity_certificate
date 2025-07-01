@@ -81,7 +81,7 @@ By applying SQL filters effectively, I was able to:
 ## 📌 Tools Used
 
 - SQL
-- Logical and pattern matching operators (`AND`, `OR`, `NOT`, `LIKE`)
+- Logical and pattern-matching operators (`AND`, `OR`, `NOT`, `LIKE`)
 - Data visualization via query screenshots
 
 ---
