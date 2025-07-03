@@ -16,9 +16,9 @@ The organization experienced a **Distributed Denial of Service (DDoS)** attack t
 
 **Response actions included**:
 
-- Blocking ICMP traffic,
-- Shutting down non-essential systems,
-- Implementing updated firewall rules and monitoring solutions.
+- Blocking ICMP traffic
+- Shutting down non-essential systems
+- Implementing updated firewall rules and monitoring solutions
 
 ---
 
