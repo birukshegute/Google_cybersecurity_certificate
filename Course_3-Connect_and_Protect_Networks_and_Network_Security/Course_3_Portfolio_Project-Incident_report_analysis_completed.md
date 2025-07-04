@@ -2,7 +2,7 @@
 
 ## 🌐 DDoS Attack Analysis — NIST Framework Alignment
 
-This report was completed as the final portfolio project for **Course 3: Connect and Protect – Networks and Network Security**. The scenario involved a simulated Distributed Denial of Service (DDoS) attack that disrupted a multimedia company’s internal services. The report applies the NIST Cybersecurity Framework to analyze the incident and propose mitigation and recovery strategies.
+This report was completed as the final portfolio project for **Course 3: Connect and Protect – Networks and Network Security**. The scenario involved a simulated Distributed Denial of Service (DDoS) attack that disrupted a multimedia company’s internal services. The report applies the NIST Cybersecurity Framework to analyze the incident, and propose mitigation and recovery strategies.
 
 ---
 
