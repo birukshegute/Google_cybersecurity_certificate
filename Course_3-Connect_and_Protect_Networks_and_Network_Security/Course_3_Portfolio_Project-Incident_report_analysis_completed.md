@@ -10,7 +10,7 @@ This report was completed as the final portfolio project for **Course 3: Connect
 
 The organization experienced a **Distributed Denial of Service (DDoS)** attack that disrupted internal network operations for approximately two hours.
 
-- The attack leveraged **ICMP packet flooding**.
+- The attack leveraged **ICMP packet flooding**
 - Exploited a **misconfigured firewall**, which allowed unfiltered ICMP traffic.
 - Employees lost access to critical systems during the outage.
 
