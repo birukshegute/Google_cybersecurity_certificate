@@ -67,4 +67,4 @@ google-cybersecurity-certificate/
 └── README.md
 ```
 
-<!-- Daily streak commit for Augest 1-->
+<!-- Daily streak commit for Augest 2-->
