@@ -7,6 +7,7 @@ This repository documents my journey through the **Google Cybersecurity Professi
 ## 💼 Target Roles
 
 - Cybersecurity Analyst
+- Penetration Test
 - SOC Analyst (Security Operations Center)
 - IT Security Technician
 - Risk and Compliance Assistant
