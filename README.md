@@ -68,4 +68,4 @@ google-cybersecurity-certificate/
 └── README.md
 ```
 
-<!-- Daily streak commit for January 2>
+<!-- Daily streak commit for January 3>
